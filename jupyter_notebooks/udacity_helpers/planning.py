@@ -2,6 +2,7 @@ from enum import Enum
 from queue import PriorityQueue
 import numpy as np
 
+# Quadroter assume all actions cost the same.
 class Action(Enum):
     """
     An action is represented by a 3 element tuple.
